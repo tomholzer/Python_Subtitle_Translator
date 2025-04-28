@@ -1,10 +1,10 @@
 Subtitle Translation Script (SRT to SRT)
 
-Overview
+**Overview**
 
 This Python script translates subtitle files in .srt format from English to Czech using the deep_translator library. The script preserves the subtitle structure, including numbering and timestamps, while ensuring a batch translation approach to avoid API rate limits.
 
-Features
+**Features**
 
 Reads an .srt subtitle file and translates only the text lines.
 
@@ -16,13 +16,13 @@ Displays progress updates with percentage and elapsed time.
 
 Saves the translated subtitles into a new .srt file.
 
-Requirements
+**Requirements**
 
 Ensure you have Python installed and install the required dependencies:
 
 pip install deep-translator
 
-Usage
+**Usage**
 
 Modify the input_srt and output_srt variables in the script with the correct file paths and run the script:
 
@@ -50,7 +50,7 @@ a Gregu, Pse.</i>
 00:01:23,815 --> 00:01:25,048
 <i>Rozumíte?</i>
 
-Notes
+**Notes**
 
 The script includes a delay (time.sleep(1)) to prevent exceeding API limits.
 
@@ -58,6 +58,6 @@ If a translation fails, the original text is retained.
 
 The progress indicator updates every 10% and shows elapsed time.
 
-License
+**License**
 
 This script is open-source and can be modified freely.
